@@ -11,7 +11,8 @@ function scanMusic($dir)
  $file =  scandir($dir);
  $music = glob('/users/info/etu-s3/sajkiewl/public_html/web/tp1/*.{mp3}', GLOB_BRACE);
  $image = glob('/users/info/etu-s3/sajkiewl/public_html/web/tp1/*.{jpeg}',GLOB_BRACE);
-
+ global $replace_music2;
+ global $replace_image2;
 
     foreach ($image as $key => $value) {
       # code...
@@ -19,16 +20,18 @@ function scanMusic($dir)
       $replace_image = substr_replace($value, '/~', 0, 19);
       $replace_image2 = substr_replace($replace_image,'', 10 , 12);
 
-      echo '<img src="http://www-etu-info.iut2.upmf-grenoble.fr'.$replace_image2.'" width="100" height="100" />';
+    //echo  '<img src="http://www-etu-info.iut2.upmf-grenoble.fr'.$replace_image2.'" width="200" height="200" />';
+      echo'<a href="play.php?img=Justice/D.A.N.C.E"><img src="http://www-etu-info.iut2.upmf-grenoble.fr'.$replace_image2.'" width="200" height="200"/>';
     }
-foreach ($music as $key1 => $value1) {
-      $replace_music = substr_replace($value1, '/~', 0, 19);
-      $replace_music2 = substr_replace($replace_music,'', 10 , 12);
-      $path = $replace_music2;
-      $file = basename($path, ".mp3");
-      var_dump($file);
-      echo "<embed src='".$file.".mp3' t align='absmiddle' alt='D.A.N.C.E.mp3' autostart='false' border='0' controls='smallconsole'></embed>";
-    }
+    foreach ($music as $key1 => $value1) {
+          $replace_music = substr_replace($value1, '/~', 0, 19);
+          $replace_music2 = substr_replace($replace_music,'', 10 , 12);
+          $path = $replace_music2;
+          $file = basename($path, ".mp3");
+          //echo "<embed src='".$file.".mp3' t align='absmiddle' alt='D.A.N.C.E.mp3' autostart='false' border='0' controls='smallconsole'></embed>";
+
+
+        }
 
 
 

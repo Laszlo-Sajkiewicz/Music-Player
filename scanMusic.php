@@ -3,6 +3,8 @@
 <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css"  href="jukebox.css">
 </head>
+<body>
+  <h1> Music player </h1>
 <?php
 
 function scanMusic($dir)
@@ -16,7 +18,6 @@ function scanMusic($dir)
 
     foreach ($image as $key => $value) {
       # code...
-
       $replace_image = substr_replace($value, '/~', 0, 19);
       $replace_image2 = substr_replace($replace_image,'', 10 , 12);
 
@@ -63,7 +64,13 @@ function findMusic($s_dir){
 }
 scanMusic("./data");
 findMusic("./data"); ?>
-<body>
+
+
 
 </body>
+<footer>
+<p>Posted by: Laszlo Sajkiewicz</p>
+<p>Contact information: <a href="mailto:laszlo.sajkiewicz@gmail.com">
+laszlo.sajkiewicz@gmail.com</a>.</p>
+</footer>
 </html>

@@ -22,7 +22,7 @@
       <p>Posted by: Laszlo Sajkiewicz</p>
       <p>
         Contact information:
-        <a href="mailto:laszlo.sajkiewicz@gmail.com">laszlo.sajkiewicz@gmail.com</a>
+        <a href="mailto:laszlo.sajkiewicz@gmail.com">contact me</a>
       </p>
     </footer>
   </body>

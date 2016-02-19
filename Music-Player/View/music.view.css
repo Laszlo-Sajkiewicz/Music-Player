@@ -1,0 +1,18 @@
+body{
+  background-color: grey;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+}
+img{
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 255px;
+  height: 255px;
+}
+footer{
+font-size: 12px;
+text-align: center;
+}

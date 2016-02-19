@@ -4,7 +4,15 @@
    */
   class Music
   {
+    /**
+     * [$imagePath path on your phisycal machine ]
+     * @var [string]
+     */
     public $imagePath;
+    /**
+     * [$musicPath path on your phisycal machine]
+     * @var [string]
+     */
     public $musicPath;
 
     function __construct($imagePath, $musicPath)
@@ -14,3 +22,4 @@
     }
   }
 ?>
+

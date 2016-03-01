@@ -11,6 +11,18 @@ h2 {
   margin-top : -40px;
   margin-left : 230px;
 }
+hr {
+  border-style : solid;
+  color : black;
+}
+hr+p {
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+hr+p::first-letter{
+  color : blue;
+}
 img{
   margin-left: 200px;
   margin-bottom: 200px;

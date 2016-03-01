@@ -7,7 +7,9 @@
   </head>
   <body>
     <h1>Music player</h1><h2>Audio player</h2>
-
+<hr/>
+<p> Mosaic of music</p>
+<hr/>
     <?php
       foreach ($tab['listMusic'] as $key => $value) {
     ?>

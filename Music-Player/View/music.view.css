@@ -3,8 +3,13 @@ body{
 }
 h1{
   text-align: center;
-  text-decoration: underline;
   color: red;
+}
+h2 {
+  text-align: center;
+  color : blue;
+  margin-top : -40px;
+  margin-left : 230px;
 }
 img{
   margin-left: 200px;

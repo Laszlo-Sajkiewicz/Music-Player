@@ -6,7 +6,7 @@
     <title>Music</title>
   </head>
   <body>
-    <h1>Music player</h1>
+    <h1>Music player</h1><h2>Audio player</h2>
 
     <?php
       foreach ($tab['listMusic'] as $key => $value) {

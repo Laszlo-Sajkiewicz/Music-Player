@@ -22,6 +22,8 @@ hr+p {
 }
 hr+p::first-letter{
   color : blue;
+  font-size : 40px;
+  font-style : italic;
 }
 img{
   margin-left: 200px;

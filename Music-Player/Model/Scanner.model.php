@@ -16,18 +16,11 @@
     function scanAll() {
       $tab = array();
       foreach ($this->scanMusic() as $key => $value) {
-    //    $tab[] = new Music($this->directory . basename($value, ".mp3").'.jpeg',
-      //                     $this->directory . basename($value, ".mp3").'.mp3');
-      $tab[] = new Music( $this->id = $id,
-           $this->author = $author,
-           $this->title = $title,
-           $this->cover = $cover,
-           $this->mp3 = $mp3,
-           $this->category = $category)
+        $tab[] = new Music($this->directory . basename($value, ".mp3").'.jpeg',
+                           $this->directory . basename($value, ".mp3").'.mp3');
       }
       return $tab;
     }
-
-    
-
+   
+  }
 ?>

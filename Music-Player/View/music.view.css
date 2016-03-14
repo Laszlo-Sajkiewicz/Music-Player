@@ -6,17 +6,7 @@ body {
   background-size: .12em 100%;
   font: 16em/1 Arial;
 }
-h1{
-  text-align: center;
 
-  color: red;
-}
-h2 {
-  text-align: center;
-  color: blue;
-  margin-top: -40px;
-  margin-left: 230px;
-}
 
 hr{
   border-style: solid;
@@ -24,13 +14,13 @@ hr{
 
 }
 img{
-  margin-left: 200px;
-  margin-bottom: 200px;
-  width: 255px;
-  height: 255px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 15%;
+  height: 15%;
 }
 footer{
-font-size: 12px;
+font-size: 5%;
 text-align: center;
 }
 

@@ -6,8 +6,6 @@ body {
   background-size: .12em 100%;
   font: 16em/1 Arial;
 }
-
-
 hr{
   border-style: solid;
   color: black;
@@ -23,20 +21,17 @@ footer{
 font-size: 5%;
 text-align: center;
 }
-
+/*SVG*/
 .text--line {
   font-size: .5em;
 }
-
 svg {
   position: relative;
   width: 25%;
   height: 25%;
   padding-top: 1%;
-  padding-left: 38%
-
+  padding-left: 38%;
 }
-
 .text-copy {
   fill: none;
   stroke: white;
@@ -44,7 +39,6 @@ svg {
   stroke-width: 3px;
   -webkit-animation: stroke-offset 5s infinite linear;
           animation: stroke-offset 5s infinite linear;
-
 }
 .text-copy:nth-child(1) {
   stroke: #360745;
@@ -71,3 +65,4 @@ svg {
     stroke-dashoffset: 35%;
     stroke-dasharray: 0 87.5%;
   }
+/*end SVG*/

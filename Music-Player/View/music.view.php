@@ -43,7 +43,6 @@
 
 
 </svg>
-<hr>
     <?php
       foreach ($tab['listMusic'] as $key => $value) {
     ?>

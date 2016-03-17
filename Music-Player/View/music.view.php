@@ -7,7 +7,6 @@
   </head>
   <body>
 
-
 <svg viewBox="0 0 800 600">
   <symbol id="s-text" >
 
@@ -43,6 +42,15 @@
 
 
 </svg>
+
+<div id='menu'>
+<ul>
+   <li class='active'><a href='#'><span>Home</span></a></li>
+   <li><a href='#'><span>Profil</span></a></li>
+   <li><a href='#'><span>Profil de l'artiste</span></a></li>
+   <li class='last'><a href='#'><span>Contact</span></a></li>
+</ul>
+</div>
     <?php
       foreach ($tab['listMusic'] as $key => $value) {
     ?>
@@ -60,5 +68,8 @@
         <a href="mailto:laszlo.sajkiewicz@gmail.com">contact me</a>
       </p>
     </footer>
+    <div class="up">
+<a href="#top"><img src="Data/top.png"/></a>
+  </div>
   </body>
 </html>
